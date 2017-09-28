@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+html {
+  min-height: 100vh;
+  font-size: 62.5%; }
+
+body {
+  margin: 0;
+  font-size: 1.6rem;
+  font-family: "Roboto Slab", serif; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  vertical-align: bottom; }
+
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none; }
+
+.container-fluid {
+  margin: 0;
+  padding: 0; }
+
+.esquerdo {
+  background-color: #fff;
+  min-height: 100vh;
+  vertical-align: top;
+  padding: 0 50px; }
+
+.direito {
+  background-color: #ffc0cb;
+  min-height: 100vh;
+  vertical-align: top;
+  padding: 0 50px;
+  color: #fff; }
+
+.botao-pt {
+  display: inline-block;
+  text-align: right; }
+
+.botao-visivel-en {
+  position: absolute;
+  top: 0.5%;
+  width: 95px;
+  right: 5%; }
+
+.botao-visivel-pt {
+  position: absolute;
+  top: 0.5%;
+  width: 95px;
+  right: 5%; }
+
+.botao-cel-pt {
+  position: absolute;
+  top: 0.5%;
+  width: 95px; }
+
+.botao-cel-en {
+  position: absolute;
+  top: 0.5%;
+  width: 95px; }
+
+.en {
+  display: none; }
+
+.foto-perfil {
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  padding: 50px 0 20px; }
+
+.nome {
+  text-align: center;
+  color: #ffc0cb;
+  text-transform: uppercase; }
+  .nome h2 {
+    margin: 0;
+    padding-top: 20px; }
+
+.cargo {
+  text-align: center;
+  color: #ffc0cb;
+  text-transform: uppercase; }
+  .cargo h3 {
+    margin: 0;
+    padding-top: 10px; }
+
+.icone {
+  background-color: #ffc0cb;
+  border-radius: 100%;
+  padding: 20px;
+  font-size: 2.4rem;
+  color: #fff;
+  margin-right: 25px; }
+  .icone.lado-direito {
+    color: #ffc0cb;
+    background-color: #fff; }
+  .icone.contato {
+    font-size: 2rem;
+    padding: 15px;
+    background: none;
+    color: #fff;
+    border-radius: 0;
+    margin: 0;
+    padding: 0 10px; }
+
+.titulo {
+  text-transform: uppercase;
+  color: #ffc0cb;
+  font-size: 2.8rem;
+  margin-top: 50px;
+  text-align: left; }
+  .titulo.lado-direito {
+    color: #fff; }
+
+.skill {
+  text-transform: uppercase;
+  color: #ffc0cb;
+  font-size: 2rem; }
+
+.paragrafo {
+  color: #ffc0cb;
+  text-align: justify;
+  margin-top: 50px; }
+
+.educacao-item {
+  margin: 0;
+  padding-top: 50px; }
+  .educacao-item .descricao p {
+    text-align: justify; }
+  .educacao-item h3 {
+    margin: 0;
+    text-transform: uppercase; }
+
+.experiencia-item {
+  margin: 0;
+  padding-top: 50px; }
+  .experiencia-item .descricao p {
+    text-align: justify; }
+  .experiencia-item h3 {
+    margin: 0;
+    text-transform: uppercase; }
+
+.email {
+  margin-top: 20px; }
+
+.contato {
+  margin-left: 70px;
+  padding-top: 10px; }
+
+.habilidades-pessoais {
+  margin-top: 50px; }
+
+.habilidades-profissionais {
+  margin-top: 50px; }
+
+.barra {
+  background: #dddddd;
+  min-width: 50%;
+  height: 28px;
+  vertical-align: middle;
+  padding: 0;
+  margin-bottom: 15px; }
+
+.competencia {
+  background: #ffc0cb;
+  width: 1%;
+  height: 28px;
+  vertical-align: middle;
+  margin: 0;
+  display: inline-block;
+  margin-bottom: 15px; }
+
+.competencia-ingles {
+  background: #ffc0cb;
+  width: 100%;
+  height: 28px;
+  vertical-align: middle;
+  margin: 0;
+  display: inline-block;
+  margin-bottom: 15px; }
+
+.competencia-trabequip {
+  background: #ffc0cb;
+  width: 70%;
+  height: 28px;
+  vertical-align: middle;
+  margin: 0;
+  display: inline-block;
+  margin-bottom: 15px; }
+
+.competencia-criatividade {
+  background: #ffc0cb;
+  width: 80%;
+  height: 28px;
+  vertical-align: middle;
+  margin: 0;
+  display: inline-block;
+  margin-bottom: 15px; }
+
+.competencia-pontualidade {
+  background: #ffc0cb;
+  width: 90%;
+  height: 28px;
+  vertical-align: middle;
+  margin: 0;
+  display: inline-block;
+  margin-bottom: 15px; }
+
+.competencia-htmlcss {
+  background: #ffc0cb;
+  width: 70%;
+  height: 28px;
+  vertical-align: middle;
+  margin: 0;
+  display: inline-block;
+  margin-bottom: 15px; }
+
+.competencia-js {
+  background: #ffc0cb;
+  width: 60%;
+  height: 28px;
+  vertical-align: middle;
+  margin: 0;
+  display: inline-block;
+  margin-bottom: 15px; }
+
+.competencia-sass {
+  background: #ffc0cb;
+  width: 60%;
+  height: 28px;
+  vertical-align: middle;
+  margin: 0;
+  display: inline-block;
+  margin-bottom: 15px; }
+
+.competencia-excel {
+  background: #ffc0cb;
+  width: 90%;
+  height: 28px;
+  vertical-align: middle;
+  margin: 0;
+  display: inline-block;
+  margin-bottom: 15px; }
+
+.competencia-ppt {
+  background: #ffc0cb;
+  width: 80%;
+  height: 28px;
+  vertical-align: middle;
+  margin: 0;
+  display: inline-block;
+  margin-bottom: 15px; }
+
+.portfolio {
+  margin-bottom: 50px; }
+
+/*# sourceMappingURL=main.css.map */
